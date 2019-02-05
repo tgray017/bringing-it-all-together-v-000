@@ -73,7 +73,10 @@ class Dog
   end
   
   def update
-    
+    sql = <<-SQL
+      ALTER TABLE dogs
+      
+    SQL
   end
   
 end
