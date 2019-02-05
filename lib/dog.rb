@@ -74,7 +74,8 @@ class Dog
   
   def update
     sql = <<-SQL
-      ALTER TABLE dogs
+      UPDATE dogs
+      SET (name)
       
     SQL
   end
